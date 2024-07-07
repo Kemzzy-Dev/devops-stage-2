@@ -56,7 +56,7 @@ services:
       context: ./proxy-manager
     restart: unless-stopped
     ports:
-      - '8090:81'
+      - '81:81'
 
 volumes:
   postgres_data:
