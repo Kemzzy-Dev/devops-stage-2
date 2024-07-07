@@ -34,11 +34,14 @@ Add Poetry to your PATH (if not automatically added):
     ```sh
     poetry run bash ./prestart.sh
     ```
+    
+4. **Update configuration**:
+   Ensure you update the necessary configurations in the `.env` file, particularly the database configuration.
 
-4. **Run the backend server**:
+5. **Run the backend server**:
     ```sh
     poetry run uvicorn app.main:app --reload
     ```
 
-5. **Update configuration**:
-   Ensure you update the necessary configurations in the `.env` file, particularly the database configuration.
+
+

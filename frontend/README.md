@@ -19,11 +19,11 @@ This directory contains the frontend of the application built with ReactJS and C
     npm install
     ```
 
-3. **Run the development server**:
+3. **Configure API URL**:
+   Ensure the API URL is correctly set in the `.env` file.
+
+4. **Run the development server**:
     ```sh
     npm run dev
     ```
-
-4. **Configure API URL**:
-   Ensure the API URL is correctly set in the `.env` file.
 
